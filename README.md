@@ -1,10 +1,10 @@
-# Opsdesk ? Laravel admin reconstruction
+# Opsdesk - Laravel admin reconstruction
 
 A runnable customer operations portal with a shared ticket inbox, customer directory, dashboard, assignment, and a validated ticket lifecycle.
 
 ## Provenance and dates
 
-**Resume-reported context: LET'S DO YOUR PLAN PTE. LTD., August 2023?March 2026.**
+**Resume-reported context: LET'S DO YOUR PLAN PTE. LTD., August 2023-March 2026.**
 
 That period describes the employment context supplied for this exercise. This repository is a **new, independent reconstruction created in November 2026**, inspired by the resume's generic Laravel backend and administrative interface responsibilities. It is not recovered company source code, an official employer product, evidence of an individual's historical contributions, or a reproduction of a named client's implementation. Individual client assignments remain unverified. Git history records the actual work dates.
 
@@ -17,7 +17,7 @@ All customer names, contacts, tickets, and operators are synthetic. Relative dat
 - Search by subject, customer name, or ticket reference, plus combined status/priority/owner/customer filters and pagination.
 - Create and update requests with server-side field and foreign-key validation.
 - Assign an operator, change priority, and leave an internal note.
-- Enforced transitions: Open ? In progress / Waiting; In progress ? Waiting; In progress / Waiting ? Resolved; Resolved ? Open.
+- Enforced transitions: Open -> In progress / Waiting; In progress -> Waiting; In progress / Waiting -> Resolved; Resolved -> Open.
 - Starting work or resolving requires an owner; resolving also requires a resolution.
 - Transactional activity history with actor attribution; resolution text remains in history after reopening.
 - Optimistic version checks reject stale edits and require reloading the current revision.
