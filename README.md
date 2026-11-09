@@ -36,6 +36,10 @@ All customer names, contacts, tickets, and operators are synthetic. Relative dat
 
 </details>
 
+## Workbook roadmap
+
+Read the [simulation roadmap and feature-to-source map](docs/simulation-roadmap.md) derived from `portfolio_daily_activity_simulation_2023_2026.xlsx`. Its dates and slot counts are hypothetical planning data. Commits retain their actual creation dates.
+
 ## Run locally
 
 Use PHP 8.5 (tested with **PHP 8.5.12**) and Composer 2. Required extensions include ctype, curl, dom, fileinfo, filter, hash, intl, mbstring, openssl, pdo_sqlite, session, tokenizer, xml, and zip. The committed lock file includes Symfony dependencies requiring PHP 8.4.1 or later; PHP 8.5 is the recommended environment.
